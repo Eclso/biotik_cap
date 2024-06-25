@@ -192,10 +192,10 @@ function resultss(){
 		if(val == true){
 
 			
-			htmlelement += "<div  onclick=\"popup('"+formtargeturl(key)+"')\" class=\"cursor-pointer rectangle h-56 w-32 rounded-2xl bg-gray-300 m-4 flex flex-col justify-center items-center overflow-y-auto\">";
+			htmlelement += "<div  onclick=\"popup('"+formtargeturl(key)+"')\" class=\"cursor-pointer rectangle h-56 w-32 rounded-2xl bg-gray-200 m-4 flex flex-col justify-center items-center overflow-y-auto\">";
 			htmlelement += `<div class="speciesname font-bold h-fit w-min text-black ">`+floresult[key][0]+`</div>`
 			htmlelement += `<div class="speciespercentage mt-2 text-black">`+perarray[key] +`%</div>`;
-			htmlelement += "<div class=\"viewspec w-16 h-6 mt-4 bg-blue-500 rounded-lg flex justify-center items-center\" onclick=\"popup('"+formtargeturl(key)+"'); event.stopPropagation();\">" +
+			htmlelement += "<div class=\"viewspec w-16 h-6 mt-4 bg-green-400 rounded-lg flex justify-center items-center\" onclick=\"popup('"+formtargeturl(key)+"'); event.stopPropagation();\">" +
                 "<div class=\"text-white\">view</div>" +
               "</div>";
 			

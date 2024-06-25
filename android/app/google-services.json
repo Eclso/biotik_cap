@@ -1,39 +1,26 @@
 {
   "project_info": {
-    "project_number": "378099635200",
-    "firebase_url": "https://biotik-ifp.firebaseio.com",
-    "project_id": "biotik-ifp",
-    "storage_bucket": "biotik-ifp.appspot.com"
+    "project_number": "516342079865",
+    "project_id": "biotik-f66be",
+    "storage_bucket": "biotik-f66be.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378099635200:android:f255f1c709c519ca",
+        "mobilesdk_app_id": "1:516342079865:android:0a813a4a7edaf301a30fa8",
         "android_client_info": {
           "package_name": "com.ifp.biotik"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "378099635200-f3funhgjg1ajonlnm0laf37b2g0h4hlc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCujPDb3ObPpUt4TBJvBT0DzCuUNZplhek"
+          "current_key": "AIzaSyB5YiHnwCrH1bdLX_jVRdTxaTdLPwbUrbQ"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
           "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

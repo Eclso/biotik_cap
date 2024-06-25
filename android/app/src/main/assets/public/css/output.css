@@ -266,7 +266,7 @@ body.active-popup .popupp {
 }
 
 .popupp::-webkit-scrollbar {
-  width: 8px;
+  width: 16px;
 }
 
 .popupp::-webkit-scrollbar-thumb {
@@ -330,7 +330,7 @@ body.active-popup1 .popupp1 {
 }
 
 .popupp1::-webkit-scrollbar {
-  width: 8px;
+  width: 16px;
 }
 
 .popupp1::-webkit-scrollbar-thumb {
@@ -362,11 +362,19 @@ body.active-popup1 .main {
   z-index: 1000;
 }
 
+.showhelp{
+  width:80%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body.active-popup1 .backgroundpopup1{
   display: block;
 }
 
-/*! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com*/
+/*! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1096,8 +1104,8 @@ video {
   height: 10rem;
 }
 
-.h-44{
-  height: 11rem;
+.h-56{
+  height: 14rem;
 }
 
 .h-6{
@@ -1107,14 +1115,6 @@ video {
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
-}
-
-.h-52{
-  height: 13rem;
-}
-
-.h-56{
-  height: 14rem;
 }
 
 .w-16{
@@ -1201,14 +1201,19 @@ video {
   border-width: 1px;
 }
 
-.bg-blue-500{
+.bg-gray-200{
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-gray-300{
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-green-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .bg-red-500{

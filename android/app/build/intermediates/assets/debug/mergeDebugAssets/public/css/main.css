@@ -267,7 +267,7 @@ body.active-popup .popupp {
 }
 
 .popupp::-webkit-scrollbar {
-  width: 8px;
+  width: 16px;
 }
 
 .popupp::-webkit-scrollbar-thumb {
@@ -340,7 +340,7 @@ body.active-popup1 .popupp1 {
 }
 
 .popupp1::-webkit-scrollbar {
-  width: 8px;
+  width: 16px;
 }
 
 .popupp1::-webkit-scrollbar-thumb {

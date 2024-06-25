@@ -977,6 +977,7 @@ mipmap ic_launcher_background
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw firebase_common_keep
+raw firebase_crashlytics_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1013,6 +1014,7 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string com_google_firebase_crashlytics_mapping_file_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -1032,9 +1034,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string custom_url_scheme
-string default_web_client_id
 string fcm_fallback_notification_channel_label
-string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
